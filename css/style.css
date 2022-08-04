@@ -2,6 +2,7 @@
 
 	padding: 0;
 	margin: 0;
+	text-decoration: none;
 
 }
 
@@ -213,8 +214,8 @@ header ul li a:hover{
 }
 
 .badges ul li h3{
-	border-radius: 10px;
 
+	border-radius: 10px;
 	background: white;
 	color: black;
 	text-align: center;
@@ -230,11 +231,141 @@ header ul li a:hover{
 
 /* fim do css das badges */
 
+
+/* inicio do css do contato */
+
+.contato{
+
+	background: #101010;
+	padding: 25px;
+
+}
+
+.contato h2{
+
+	padding-bottom: 25px;
+	text-align: center;
+	color: white;
+	font-size: 35px;
+
+}
+
+.redes{
+
+	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+	padding-top: 150px;
+
+}
+
+.redes-contato {
+
+	margin-left: 50%;
+	display: block;
+	margin-bottom: 15px;
+
+}
+
+.redes img{
+
+	margin-left: ;
+	display: inline-block;
+	width: 10%;
+
+}
+
+.redes h3, .redes h3 a{
+
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+
+.form-contato{
+
+	padding: 0px;
+	display: inline-block;
+	margin-left: 25%;
+	height: 470px;
+	width: 35%;
+	border-radius: 25px;
+	border: 1px solid gray;
+	background: white;
+
+}
+
+.form-contato h3{
+
+	padding: 25px 0px;
+	text-align: center;
+
+}
+
+.form-contato form label{
+
+	margin-top: 10px;
+	display: block;
+	margin-left: 10%;
+	color: #444444;
+
+}
+
+.form-contato form input, .form-contato form select{
+
+	margin: 0px 10% 10px 10%;
+	width: 80%;
+	height: 20px;
+	border: none;
+	border-bottom: 1px solid darkgray;
+	padding: 2px;
+
+}
+
+.form-contato form input:focus, .form-contato form select:focus{
+
+	outline: 0;
+
+}
+
+.form-contato form textarea{
+
+	resize: none;
+	width: 75%;
+	height: 65px;
+	margin: 10px 10% 25px 10%;
+	padding: 10px;
+	border-radius: 10px;	
+
+}
+
+.form-contato form #enviar {
+
+	background: #050A30;
+	color: white;
+	border-radius: 10px;
+	height: 30px;
+	transition: 0.5s;
+
+}
+
+.form-contato form #enviar:hover {
+
+	background: #055C9D;
+	transform: scale(1.05);
+
+}
+
+/* fim do css do contato */
+
 /* inicio do css do footer*/
 footer{
 
 	width: 100%;
-	background: #101010;
+	background: #1C1C1C;
 	height: 40px;
 	padding: 15px 0;
 
