@@ -57,6 +57,7 @@ header ul li a:hover{
 	width: 100%;
 	background: #1C1C1C;
 	padding: 25px 0;
+	padding-bottom: 50px;
 
 }
 
@@ -66,6 +67,13 @@ header ul li a:hover{
 	width: 20%;
 	margin-left: 40px;
 	box-shadow: 15px 15px 8px #000000;
+	transition: 1s;
+
+}
+
+.sobre img:hover{
+
+	transform: scale(1.1);
 
 }
 
@@ -114,7 +122,7 @@ header ul li a:hover{
 
 	text-align: center;
 	font-size: 35px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	color: white;
 
 }
@@ -125,16 +133,25 @@ header ul li a:hover{
 	display: inline-block;
 	width: 15%;
 	height: 200px;
-	border: 2px solid whitesmoke;
 	border-radius: 10px;
+	transition: 0.5s;
+	margin-bottom: 50px;
+
+}
+
+.formacao ul li:hover{
+
+	transform: scale(1.2);
 
 }
 
 .formacao ul li h3{
 
+	background: white;
+	color: black;
 	text-align: center;
-	padding-top: 10px;
-	color: white;
+	border-radius: 10px;
+
 
 }
 
@@ -156,10 +173,67 @@ header ul li a:hover{
 
 }
 
+/* fim do css da formação */
+
+
+/* inicio do css das badges */
+
+.badges {
+
+	padding-top: 25px;
+	width: 100%;
+	background: #1C1C1C;
+
+}
+
+.badges h2{
+
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	margin-bottom: 50px;
+
+}
+
+.badges ul li{
+
+	display: inline-block;
+	width: 20%;
+	height: 220px;
+	border-radius: 10px;
+	margin-left:40%;
+	margin-bottom: 50px;
+	transition: 1s;
+
+}
+
+.badges ul li:hover{
+
+	transform: scale(1.2);
+
+}
+
+.badges ul li h3{
+	border-radius: 10px;
+
+	background: white;
+	color: black;
+	text-align: center;
+
+}
+
+.badges ul li img{
+
+	width: 75%;
+	margin-left: 2em;
+
+}
+
+/* fim do css das badges */
+
 /* inicio do css do footer*/
 footer{
 
-	clear: float;
 	width: 100%;
 	background: #101010;
 	height: 40px;
